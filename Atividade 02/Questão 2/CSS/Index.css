@@ -1,0 +1,15 @@
+body{
+  font-family:Arial;
+  text-align: justify;
+  line-height: 1.5;
+  
+
+}
+
+p{
+    text-indent: 40px;
+}
+
+h1,h2{
+    text-align: center;
+}
