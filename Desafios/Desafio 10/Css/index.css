@@ -1,0 +1,29 @@
+#nome{
+    background-color: green;
+    color: beige;
+}
+
+#hexadecimal{
+    background-color: #008000;
+    color: hsl(60, 56%, 91%);
+}
+
+#RGB{
+    background-color: rgb(0, 128, 0);
+    color: rgb(245, 245, 220);
+
+}
+
+#HSL{
+    background-color: hsl(120, 100%, 25%);
+    color: hsl(60, 56%, 91%);
+}
+
+#RGBA{
+    background-color: rgba(40, 54, 40, 0.5);
+    color: hsl(0, 75%, 84%);
+}
+
+body{
+    background-color: crimson;
+}
