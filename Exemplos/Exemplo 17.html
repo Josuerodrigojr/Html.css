@@ -7,6 +7,30 @@
     <title>Exemplo audio</title>
 </head>
 <body>
+    <h1>Reproduzindo Àudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload ="metadata" autoplay controls loop>
+        <source src="Arquivos/musica.mp3" type="audio/mp3">
+        <source src="Arquivos/musica.ogg" type="audio/ogg">
+        <source src="Arquivos/musica.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio</p>
+        <a href="Arquivos/musica.mp3"> Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+    
+
+    <h1>Reproduzindo Videos</h1>
+    <p>Vamos aprender a reproduzir vídeos em HTML5</p>
+    <video width="560" poster="Arquivos/background_zoom.png" autoplay controls loop>
+        <source src="Arquivos/video.mp4" type="audio/mp4">
+        <source src="Arquivos/musica.m4v" type="audio/m4v">
+        <source src="Arquivos/musica.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir o vídeo</p>
+        <a href="Arquivos/musica.mp3"> Clique aqui para baixar o arquivo MP3</a>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bzvsfXIXV7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 </body>
 </html>
