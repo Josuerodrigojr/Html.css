@@ -1,0 +1,27 @@
+body{
+
+    background-color: #132e4c;
+    margin:0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+.conteiner{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+
+
+img{
+    border-radius:100%;
+
+
+}

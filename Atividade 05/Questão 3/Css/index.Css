@@ -1,0 +1,10 @@
+body{
+    background-color: #132e4c;;
+}
+
+div a input{
+    border-radius: 100px;
+    background-image: linear-gradient(to right, #FDFDFD , #DEDEDE);
+    color:#3D3D3D;
+    font-family: sans-serif;
+}
