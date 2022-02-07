@@ -8,57 +8,79 @@ body, html{
 
 .conteiner{
     display: grid;    
-    grid-template-columns: 10% 90%;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 90%;
     height: 100%;
 }
 
 header{
-    background-color: #9E8164;
-    grid-column:  1/4;
-}
-
-header nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-}
-
-header nav div:hover{
-    color: #664422;
+    background-color: #9E8164;
+    grid-column:  2/4;
+    align-items: center;
     
+
+    /*grid-template-columns: 1fr 1fr 1fr; */
 }
+
 
 main{
     background-color: #EBBA88;
-    grid-row: 2/3;
+    grid-row: 2/4;
     overflow-y: scroll;
     padding-left: 10px;
-    padding-right: 10%;
+    padding-right: 12%;
     text-align: justify;
+    
+    
+}
+
+main div{
+    margin: 10px;
+    text-indent: 40px;
+    line-height: 1.6;
 }
 
 
 aside {
-    
+    display: flex;
+    flex-direction: column;
     background-color: #7C96EB;
-    grid-row: 2/4;
+    grid-row: 1/4;
     line-height: 25px;
+    align-items: center;
     
     
+    
+}
+
+aside img{
+    margin-top: 20px;
+    overflow: hidden;
+} 
+
+aside img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+aside nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 
   
 
 
 
-footer{
+/*footer{
     background-color: #9E9844;
     color: whitesmoke;
     grid-row: 3/4;
     grid-column: 2/4;
-}
+} */
 
 .rotativo{
     display: flex;
@@ -68,9 +90,7 @@ footer{
     
 }
 
-.arredonda{
-    border-radius: 100px;
-}
+
 
 aside ul li:hover{
     color: #000739;
@@ -81,13 +101,22 @@ aside ul li:hover{
 .absoluto{
     position: absolute;
     top: 15%;
-    right: 30px;
+    right: 23px;
 }
 
 .fixed{
     position:fixed;
 }
 
+.arredonda{
+    border-radius: 100px;
+    height: 40px;
+}
+
+#Tamanho{
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 body{
 
@@ -97,4 +126,6 @@ body{
 h1, h2{
     text-align: center;
 }
+
+
 
